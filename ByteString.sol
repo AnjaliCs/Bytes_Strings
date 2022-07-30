@@ -7,6 +7,7 @@ contract Convert {
         string memory data = string(bytes_array);
         return data;
     }
+    
 
     function changeTobyte(string memory name) public pure returns(bytes){
         //converting string name to bytes
